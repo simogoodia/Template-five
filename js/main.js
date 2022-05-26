@@ -33,7 +33,6 @@ function setDate() {
     hoursEl.innerHTML = `${hours < 10 ? `0${hours}` : hours}`;
     minutesEl.innerHTML = `${minutes < 10 ? `0${minutes}` : minutes}`;
     secondsEl.innerHTML = `${seconds < 10 ? `0${seconds}` : seconds}`;
-    console.log(between);
 }
 const interval = setInterval(setDate, 1000);
 // End Count Down
